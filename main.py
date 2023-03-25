@@ -5,7 +5,7 @@ import os
 import time
 
 #===================Python Variables=======================
-menu_category = ["Tea & Coffee","Beverages","Fast Food","South Indian","Starters","Main Course","Dessert"]
+menu_category = ["Tea & Coffee","Beverages","Fast Food","Room Service","Starters","Main Course","Dessert"]
 
 menu_category_dict = {"Tea & Coffee":"1 Tea & Coffee.txt","Beverages":"2 Beverages.txt",
                 "Fast Food":"3 Fast Food.txt","South Indian":"4 South Indian.txt",

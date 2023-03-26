@@ -9,7 +9,7 @@ import time
 menu_category = ["Tea & Coffee","Beverages","Fast Food","Room Service","Starters","Main Course","Dessert"]
 
 menu_category_dict = {"Tea & Coffee":"1 Tea & Coffee.txt","Beverages":"2 Beverages.txt",
-                "Fast Food":"3 Fast Food.txt","South Indian":"4 South Indian.txt",
+                "Fast Food":"3 Fast Food.txt","South China":"4 South China.txt",
                 "Starters":"5 Starters.txt","Main Course":"6 Main Course.txt",
                 "Dessert":"7 Dessert.txt"}
 

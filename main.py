@@ -5,6 +5,13 @@ import os
 import time
 
 #===================Python Variables=======================
+#This code imports the necessary modules: tkinter, ttk, tkinter.messagebox, os, and time.
+#It also defines two Python variables: menu_category: a list of strings that contains the categories of items on the menu
+# menu_category_dict: a dictionary that maps each category in menu_category to a text file that contains the items in that category
+#The next block of code initializes an empty dictionary, order_dict, to store the customer's order. For each category in menu_category, 
+# a key is created in the order_dict dictionary with an empty dictionary as its value.
+#The final line of code changes the current working directory to the directory containing the Python file.
+
 menu_category = ["Tea & Coffee","Beverages","Fast Food","South Indian","Starters","Main Course","Dessert"]
 
 menu_category_dict = {"Tea & Coffee":"1 Tea & Coffee.txt","Beverages":"2 Beverages.txt",

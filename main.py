@@ -1,9 +1,16 @@
-from tkinter import *
-from tkinter import ttk
-import tkinter.messagebox as tmsg
+#from tkinter import *
+#from tkinter import ttk
+#import tkinter.messagebox as tmsg
+#import os
+#import time
+
+from my_tkinter import *
+from my_tkinter import ttk
+import my_tkinter.messagebox as tmsg
 import os
 import time
 
+from my_tkinter import Tk, winfo_screenwidth, winfo_screenheight
 #===================Python Variables=======================
 #This code imports the necessary modules: tkinter, ttk, tkinter.messagebox, os, and time.
 #It also defines two Python variables: menu_category: a list of strings that contains the categories of items on the menu
@@ -273,13 +280,19 @@ def close_window():
 #==================Backend Code Ends===============
 
 #================Frontend Code Start==============
-root = Tk()
-w, h = root.winfo_screenwidth(), root.winfo_screenheight()
-root.geometry("%dx%d+0+0" % (w, h))
-root.title("T.V.S Hotel")
-root.wm_iconbitmap("hotel.ico")
+    #root = Tk()
+    #w, h = root.winfo_screenwidth(), root.winfo_screenheight()
+    #root.geometry("%dx%d+0+0" % (w, h))
+    #root.title("T.V.S Hotel")
+    #root.wm_iconbitmap("hotel.ico")
 #root.attributes('-fullscreen', True)
 #root.resizable(1920, 1080)
+
+root = Tk()
+w, h = winfo_screenwidth(root), winfo_screenheight(root)
+root.geometry("%dx%d+0+0" % (w, h))
+root.title("TSandstorm Resortl")
+root.wm_iconbitmap("hotel.ico")
 
 #================Title==============
 style_button = ttk.Style()
